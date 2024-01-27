@@ -8,6 +8,10 @@ export default function MyNavBar() {
         {
             to: "",
             title: "Home"
+        },
+        {
+            to: "exercise",
+            title: "Exercise"
         }
     ]
 
