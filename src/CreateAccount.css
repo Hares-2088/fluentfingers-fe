@@ -28,7 +28,7 @@ body {
   }
   
   /* Bouton Connect */
-  #BoutonConnect {
+  #BoutonCreateConnect {
     position: absolute;
     width: 149px;
     height: 49px;

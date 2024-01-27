@@ -48,7 +48,7 @@ export default function Connect() {
           </Button>
         </form>
         <div>
-          <p id ='EncouragementMessage'>Let's pick up where we left off and turn your fingers into fluent storytellers</p>
+          <p id ='EncouragementMessage'>Let's pick up where we left off and turn your fingers into fluent storytellers. </p>
         </div>
       </div>
 
