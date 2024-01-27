@@ -18,22 +18,13 @@ Body {
   }
   
   /* Bouton Exercise */
-  #BoutonExercise {
+  #ButtonExercise {
     position: absolute;
     width: 229px;
     height: 47px;
     left: 83px;
     top: 517px;
     background: #FFFFFF;
-  }
-  
-  /* Exercise Text */
-  #ExerciseText {
-    position: absolute;
-    width: 229px;
-    height: 47px;
-    left: 83px;
-    top: 517px;
     font-family: 'Irish Grover', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -46,7 +37,7 @@ Body {
   }
   
   /* Bouton Challenge */
-  #BoutonChallenge {
+  #ButtonChallenge {
     position: absolute;
     width: 229px;
     height: 47px;
@@ -81,15 +72,6 @@ Body {
     left: 14px;
     top: 770px;
     background: #FFFFFF;
-  }
-  
-  /* Connect Text Left */
-  #ConnectTextLeft {
-    position: absolute;
-    width: 149px;
-    height: 49px;
-    left: 14px;
-    top: 770px;
     font-family: 'Irish Grover', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -102,22 +84,13 @@ Body {
   }
   
   /* Bouton Connect Right */
-  #BoutonConnectRight {
+  #ButtonConnectRight {
     position: absolute;
     width: 149px;
     height: 49px;
     left: 225px;
     top: 770px;
     background: #FFFFFF;
-  }
-  
-  /* Connect Text Right */
-  #ConnectTextRight {
-    position: absolute;
-    width: 149px;
-    height: 49px;
-    left: 225px;
-    top: 770px;
     font-family: 'Irish Grover', sans-serif;
     font-style: normal;
     font-weight: 400;
