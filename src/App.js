@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Im
 import Home from './Pages/Home';
 import { ToastContainer } from 'react-toastify'; // Assuming you're using react-toastify
 import 'react-toastify/dist/ReactToastify.css'; // Import toastify css if using ToastContainer
-import  MyNavBar from "./Components/Navbar";
+import  MyNavBar from "./Components/MyNavbar";
 
 function App() {
   return (
