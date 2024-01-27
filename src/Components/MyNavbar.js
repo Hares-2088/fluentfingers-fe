@@ -1,18 +1,17 @@
-import { Nav, Navbar } from 'react-bootstrap'
+import { Nav, Navbar, Image } from 'react-bootstrap'
 import Container from 'react-bootstrap/Container'
 import { LinkContainer } from 'react-router-bootstrap'
-import { Image } from 'react-bootstrap';
 
 export default function MyNavBar() {
 
     const links = [
         {
-            to:"",
-            title:"Home"
+            to: "",
+            title: "Home"
         }
     ]
 
-    return(
+    return (
         <Navbar style={{ backgroundImage: 'linear-gradient(to left, #80ced6, #7d7ff3)' }}>
             <Container>
 
@@ -24,7 +23,7 @@ export default function MyNavBar() {
 
                 <Nav className='me-auto fs-4'>
                     {links.map((link) => (
-                        <LinkContainer to={/${link.to}} key={link.to}>
+                        <LinkContainer to={`/${link.to}`} key={link.to}>
                             <Nav.Link>{link.title}</Nav.Link>
                         </LinkContainer>
                     ))}
@@ -32,5 +31,5 @@ export default function MyNavBar() {
 
             </Container>
         </Navbar>
-    )
+    );
 }
