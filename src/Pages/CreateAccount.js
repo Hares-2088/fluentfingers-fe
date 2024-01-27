@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Styling/CreateAccount.css';
+import '../CreateAccount.css';
 import { Container, Button } from 'react-bootstrap';
 
 export default function CreateAccount() {

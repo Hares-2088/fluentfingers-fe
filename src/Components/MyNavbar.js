@@ -12,6 +12,22 @@ export default function MyNavBar() {
         {
             to: "exercise",
             title: "Exercise"
+        },
+        {
+            to: "createAccount",
+            title: "CreateAccount"
+        },
+        {
+            to: "profile",
+            title: "Profile"
+        },
+        {
+            to: "connect",
+            title: "Connect"
+        },
+        {
+            to: "challenges",
+            title: "Challenges"
         }
     ]
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Styling/Connection.css';
+import '../Connection.css';
 import { Container, Button } from 'react-bootstrap';
 
 export default function Connect() {
