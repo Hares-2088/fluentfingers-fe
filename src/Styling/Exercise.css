@@ -1,0 +1,160 @@
+Body {
+  position: relative;
+  width: 390px;
+  height: 844px;
+  background: url(public\images\fontExercise.png);
+  mix-blend-mode: soft-light;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+#UpperSide {
+  position: absolute;
+  visibility: hidden;
+  width: 390px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+}
+
+
+#Design {
+  position: absolute;
+  width: 390px;
+  height: 17px;
+  left: 0px;
+  top: 0px;
+  background: #FFC16C;
+}
+
+#Circle {
+  position: absolute;
+  width: 379px;
+  height: 21px;
+  left: 11px;
+  top: 3px;
+}
+
+#Ellipse1 {
+
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  left: 11px;
+  top: 3px;
+  background: #FFC16C;
+}
+
+#Ellipse2 {
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  left: 56px;
+  top: 4px;
+  background: #FFC16C;
+}
+
+#Ellipse3 {
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  left: 101px;
+  top: 4px;
+  background: #FFC16C;
+}
+
+#Ellipse4 {
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  left: 146px;
+  top: 4px;
+  background: #FFC16C;
+}
+
+#Ellipse5 {
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  left: 191px;
+  top: 4px;
+  background: #FFC16C;
+}
+
+#Ellipse6 {
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  left: 236px;
+  top: 4px;
+  background: #FFC16C;
+}
+
+#Ellipse7 {
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  left: 281px;
+  top: 4px;
+  background: #FFC16C;
+}
+
+#Ellipse8 {
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  left: 326px;
+  top: 4px;
+  background: #FFC16C;
+}
+
+/* Ellipse 9 */
+#Ellipse9 {
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  left: 368px;
+  top: 4px;
+  background: #FFC16C;
+}
+
+/* Camera */
+#Camera {
+  position: absolute;
+  width: 279px;
+  height: 393px;
+  left: calc(50% - 279px/2 - 0.5px);
+  top: 72px;
+  background: #D9D9D9;
+}
+
+/* Word */
+#Word {
+  position: absolute;
+  width: 333px;
+  height: 65px;
+  left: calc(50% - 333px/2 - 0.5px);
+  top: 513px;
+  background: #FFFFFF;
+}
+
+/* NavBar */
+#NavBar {
+  position: absolute;
+  width: 390px;
+  height: 73px;
+  left: 0px;
+  top: 771px;
+  background: #FFC16C;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* image 1 */
+#Image1 {
+  position: absolute;
+  width: 88px;
+  height: 90px;
+  left: 291px;
+  top: 655px;
+  background: url(image.png);
+}

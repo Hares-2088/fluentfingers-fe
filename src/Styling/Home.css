@@ -1,0 +1,178 @@
+Body {
+    position: relative;
+    width: 390px;
+    height: 844px;
+    background: url(public\images\fontExercise.png);
+    mix-blend-mode: soft-light;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  
+  /* Logo */
+  #Logo {
+    position: absolute;
+    width: 161px;
+    height: 161px;
+    left: 114px;
+    top: 92px;
+    background: url(image.png);
+  }
+  
+  /* Bouton Exercise */
+  #BoutonExercise {
+    position: absolute;
+    width: 229px;
+    height: 47px;
+    left: 83px;
+    top: 517px;
+    background: #FFFFFF;
+  }
+  
+  /* Exercise Text */
+  #ExerciseText {
+    position: absolute;
+    width: 229px;
+    height: 47px;
+    left: 83px;
+    top: 517px;
+    font-family: 'Irish Grover', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  
+  /* Bouton Challenge */
+  #BoutonChallenge {
+    position: absolute;
+    width: 229px;
+    height: 47px;
+    left: 83px;
+    top: 584px;
+    background: #FFFFFF;
+  }
+  
+  /* Challenge Text */
+  #ChallengeText {
+    position: absolute;
+    width: 229px;
+    height: 47px;
+    left: 83px;
+    top: 584px;
+    font-family: 'Irish Grover', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  
+  /* Bouton Connect Left */
+  #BoutonConnectLeft {
+    position: absolute;
+    width: 149px;
+    height: 49px;
+    left: 14px;
+    top: 770px;
+    background: #FFFFFF;
+  }
+  
+  /* Connect Text Left */
+  #ConnectTextLeft {
+    position: absolute;
+    width: 149px;
+    height: 49px;
+    left: 14px;
+    top: 770px;
+    font-family: 'Irish Grover', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  
+  /* Bouton Connect Right */
+  #BoutonConnectRight {
+    position: absolute;
+    width: 149px;
+    height: 49px;
+    left: 225px;
+    top: 770px;
+    background: #FFFFFF;
+  }
+  
+  /* Connect Text Right */
+  #ConnectTextRight {
+    position: absolute;
+    width: 149px;
+    height: 49px;
+    left: 225px;
+    top: 770px;
+    font-family: 'Irish Grover', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  
+  /* Profile Reminder */
+  #ProfileReminder {
+    position: absolute;
+    width: 257px;
+    height: 63px;
+    left: 76px;
+    top: 663px;
+    font-family: 'Inria Serif', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  
+  /* Welcome Message */
+  #WelcomeMessage {
+    position: absolute;
+    width: 555px;
+    height: 264px;
+    left: -80px;
+    top: 253px;
+    font-family: 'Inria Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Ellipse 10 */
+  #Ellipse10 {
+    position: absolute;
+    width: 322px;
+    height: 151px;
+    left: 34px;
+    top: 253px;
+    background: #A5E8F3;
+  }
+  

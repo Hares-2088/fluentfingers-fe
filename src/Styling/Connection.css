@@ -1,0 +1,122 @@
+body {
+    position: relative;
+    width: 390px;
+    height: 844px;
+    background: url('public/images/fontExercise.png'); /* Correct path syntax */
+    mix-blend-mode: soft-light;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  
+  /* Logo */
+  #Logo {
+    position: absolute;
+    width: 161px;
+    height: 161px;
+    left: calc(50% - 161px/2 + 0.5px);
+    top: 92px;
+    background: url('image.png');
+  }
+  
+  /* Bouton Connect */
+  #BoutonConnect {
+    position: absolute;
+    width: 149px;
+    height: 49px;
+    left: calc(50% - 149px/2 + 0.5px); /* Adjusted to center based on your first definition */
+    top: 603px;
+    background: #FFFFFF; /* Assuming you want the button with a white background */
+  }
+  
+  /* Welcome Message */
+  #WelcomeMessage {
+    position: absolute;
+    width: 283px;
+    height: 124px;
+    left: calc(50% - 283px/2 + 0.5px);
+    top: 277px;
+    font-family: 'Inria Serif', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  
+  /* Username Label */
+  #UsernameLabel {
+    position: absolute;
+    width: 131px;
+    height: 23px;
+    left: 87px;
+    top: 432px;
+    font-family: 'Inria Serif', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  
+  /* Username Input */
+  #UsernameInput {
+    position: absolute;
+    width: 204px;
+    height: 37px;
+    left: calc(50% - 204px/2);
+    top: 462px;
+    background: #FFFFFF;
+  }
+  
+  /* Password Label */
+  #PasswordLabel {
+    position: absolute;
+    width: 107px;
+    height: 22px;
+    left: 87px;
+    top: 516px;
+    font-family: 'Inria Serif', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  
+  /* Password Input */
+  #PasswordInput {
+    position: absolute;
+    width: 204px;
+    height: 37px;
+    left: calc(50% - 204px/2);
+    top: 542px;
+    background: #FFFFFF;
+  }
+  
+  /* Encouragement Message */
+  #EncouragementMessage {
+    position: absolute;
+    width: 219px;
+    height: 137px;
+    left: calc(50% - 219px/2 + 0.5px);
+    top: 683px;
+    background: #BD73FF; /* Assuming you want the background color for the ellipse */
+    font-family: 'Inria Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  
