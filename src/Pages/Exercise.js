@@ -11,7 +11,7 @@ export default function Exercise() {
       <Container className='Container'>
         <div className='VideoPart'></div>
         <div className='Word'></div>
-
+        <div className='ImagePlace'></div>
     </Container>
   )
 }
