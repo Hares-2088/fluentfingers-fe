@@ -1,6 +1,6 @@
 .VideoPart{
   margin-left: 5%;
-  margin-top: -60%;
+  margin-top:-5%;
   width: 80%;
   height: 40%;
   background-color: grey;
@@ -8,8 +8,16 @@
 
 .Word{
   margin-left: 5%;
-  margin-top: 10%;
+  margin-top: 5%;
   width: 80%;
-  height: 20%;
+  height: 10%;
+  background-color: white;
+}
+
+.ImagePlace{
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 80%;
+  height: 40%;
   background-color: white;
 }
