@@ -10,7 +10,7 @@ export default function RoadMap() {
   }
   return (
     <Container className="roadmap-container">
-      <Image className="roadmap-image" src=".\images\Roadmap.png" alt="Roadmap" style={{height: '92vh'}}/>
+      <Image className="roadmap-image" src=".\images\Roadmap.png" alt="Roadmap" />
       <div className="roadmap-items">
         {/* Buttons and numbers would be placed here */}
         <div className="level-button level-1" onClick={()=>navigateToLevel(1)}>1</div>
