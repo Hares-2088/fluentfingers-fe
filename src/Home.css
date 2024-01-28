@@ -46,4 +46,14 @@
   .ProfileReminder {
     font-size: 2.2vh;
   }
+  .Button {
+    background-color: #f8f8f8;
+    color: #000000;
+    padding: 2vh 4vw;
+    margin: 1.5vh;
+    border: none;
+    border-radius: 1vh;
+    font-size: 2vh;
+    text-align: center;
+  }
 }
