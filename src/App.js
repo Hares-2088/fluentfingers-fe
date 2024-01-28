@@ -8,7 +8,7 @@ import  MyNavBar from "./Components/MyNavbar";
 import Exercise from './Pages/Exercise';
 import Profile from './Pages/Profile';
 import Challenges from './Pages/Challenges';
-import CreateAccount from './Pages/CreateAccount';
+import CreateAccount from './Components/CreateAccount';
 import RoadMap from './Pages/RoadMap';
 
 function App() {

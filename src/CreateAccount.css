@@ -1,9 +1,12 @@
-.Logo {
-  width: 20vh;
-  height: 20vh;
-  border-radius: 50%;
-  margin: 2vh auto 4vh;
-  display: block;
+.Button {
+  background-color: #f8f8f8;
+  color: #000000;
+  padding: 1vh 1vw;
+  margin: 2vh;
+  border: none;
+  border-radius: 1vh;
+  font-size: 2vh;
+  text-align: center;
 }
 
 .CreateAccountMessage {
@@ -22,16 +25,6 @@ input {
   margin-top: -5vh;
   padding: 1vh;
   text-align: center;
-}
-
-.CreateAccountButton {
-  background-color: #ffffff;
-  color: #000000;
-  border: none;
-  margin-top: 15vh;
-  margin-bottom: 5vh;
-  padding: 2vh 4vw;
-  font-size: 2vh;
 }
 
 .EncouragementMessage {

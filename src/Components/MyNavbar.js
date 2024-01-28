@@ -2,7 +2,7 @@ import React from 'react';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faDumbbell, faUserCircle, faTrophy, faSignInAlt } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faDumbbell, faUserCircle, faTrophy, faSignInAlt, faMap } from '@fortawesome/free-solid-svg-icons';
 import { Tooltip, OverlayTrigger } from 'react-bootstrap';
 import { Link } from 'react-router-dom'; // Use Link for navigation
 import '../NavBar.css';
@@ -43,7 +43,7 @@ export default function MyNavBar() {
         {
             to: "roadmap",
             title: "RoadMap",
-            icon:  faUserCircle,
+            icon:  faMap,
         }
     ];
 

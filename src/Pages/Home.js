@@ -1,14 +1,10 @@
 import React from 'react';
 import { Container, Button, Image } from 'react-bootstrap';
-import { useNavigate } from 'react-router-dom';
 import '../Home.css'; // Make sure this path is correct
-import CreateAccount from './CreateAccount';
+import CreateAccount from '../Components/CreateAccount';
+import Connect from '../Components/Connect';
 
 export default function Home() {
-    let navigate = useNavigate();
-    function openCreateAccount(){
-        navigate('/createAccount');
-    }
     return (
         <Container className="Container">
 
@@ -26,18 +22,13 @@ export default function Home() {
                 </h5>
             </div>
 
-            <div>
-                <Button className="Button">Exercise</Button>
-                <Button className="Button">Challenge</Button>
-            </div>
-
             <div className="ProfileReminder">
                 In order to save your progress you must have a profile:
             </div>
 
-            <div>
-                <Button className="Button">Connect</Button>
-                <Button className="Button" onClick={openCreateAccount}>Create account</Button>
+            <div style={{textAlign: 'center'}} >
+                <Connect/>
+                <CreateAccount/>
             </div>
 
         </Container>

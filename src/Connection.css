@@ -1,113 +1,40 @@
-  /* Logo */
-  #Logo {
-    position: absolute;
-    width: 161px;
-    height: 161px;
-    left: calc(50% - 161px/2 + 0.5px);
-    top: 92px;
-    background: url('/public/images/logo.png');
-  }
-  
-  /* Bouton Connect */
-  #BoutonConnect {
-    position: absolute;
-    width: 149px;
-    height: 49px;
-    left: calc(50% - 149px/2 + 0.5px); /* Adjusted to center based on your first definition */
-    top: 603px;
-    background: #FFFFFF; /* Assuming you want the button with a white background */
-  }
-  
-  /* Welcome Message */
-  #WelcomeMessage {
-    position: absolute;
-    width: 283px;
-    height: 124px;
-    left: calc(50% - 283px/2 + 0.5px);
-    top: 277px;
-    font-family: 'Inria Serif', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+  .Button {
+    background-color: #f8f8f8;
     color: #000000;
-  }
-  
-  /* Username Label */
-  #UsernameLabel {
-    position: absolute;
-    width: 131px;
-    height: 23px;
-    left: 87px;
-    top: 432px;
-    font-family: 'Inria Serif', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
+    padding: 2vh 4vw;
+    margin: 2vh;
+    border: none;
+    border-radius: 1vh;
+    font-size: 2vh;
     text-align: center;
-    color: #000000;
+  }
+  .connect-btn {
+    font-weight: bold;
+    color: #fff;
   }
   
-  /* Username Input */
-  #UsernameInput {
-    position: absolute;
-    width: 204px;
-    height: 37px;
-    left: calc(50% - 204px/2);
-    top: 462px;
-    background: #FFFFFF;
+  .modal-header, .modal-footer {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    border-top: 1px solid #dee2e6;
   }
   
-  /* Password Label */
-  #PasswordLabel {
-    position: absolute;
-    width: 107px;
-    height: 22px;
-    left: 87px;
-    top: 516px;
-    font-family: 'Inria Serif', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
+  .modal-title {
+    color: #495057;
+  }
+  
+  .modal-body {
+    padding: 20px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .encouragement-message {
+    color: #6c757d;
     text-align: center;
-    color: #000000;
-  }
-  
-  /* Password Input */
-  #PasswordInput {
-    position: absolute;
-    width: 204px;
-    height: 37px;
-    left: calc(50% - 204px/2);
-    top: 542px;
-    background: #FFFFFF;
-  }
-  
-  /* Encouragement Message */
-  #EncouragementMessage {
-    position: absolute;
-    width: 219px;
-    height: 137px;
-    left: calc(50% - 219px/2 + 0.5px);
-    top: 683px;
-    background: #BD73FF; /* Assuming you want the background color for the ellipse */
-    font-family: 'Inria Serif', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
   }
   
