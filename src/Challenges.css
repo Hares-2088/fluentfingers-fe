@@ -1,135 +1,31 @@
-  /* Design en haut */
-  #DesignEnHaut {
-    position: absolute;
-    visibility: hidden;
-    width: 390px;
-    height: 24px;
-    left: 0px;
-    top: 0px;
-  }
-  
-  /* Design */
-  #Design {
-    position: absolute;
-    width: 390px;
-    height: 17px;
-    left: 0px;
-    top: 0px;
-    background: #FFC16C;
-  }
-  
-  /* Les ronds Wrapper - Assuming it's a wrapper for ellipses */
-  #LesRonds {
-    position: absolute;
-    width: 379px;
-    height: 21px;
-    left: 11px;
-    top: 3px;
-  }
-  
-  /* Ellipses */
-  #Ellipse1, #Ellipse2, #Ellipse3, #Ellipse4, #Ellipse5, #Ellipse6, #Ellipse7, #Ellipse8, #Ellipse9 {
-    position: absolute;
-    width: 22px;
-    height: 20px;
-    background: #FFC16C;
-  }
-  
-  #Ellipse1 { left: 11px; top: 3px; }
-  #Ellipse2 { left: 56px; top: 4px; }
-  #Ellipse3 { left: 101px; top: 4px; }
-  #Ellipse4 { left: 146px; top: 4px; }
-  #Ellipse5 { left: 191px; top: 4px; }
-  #Ellipse6 { left: 236px; top: 4px; }
-  #Ellipse7 { left: 281px; top: 4px; }
-  #Ellipse8 { left: 326px; top: 4px; }
-  #Ellipse9 { left: 368px; top: 4px; }
-  
-  /* Camera */
-  #Camera {
-    position: absolute;
-    width: 279px;
-    height: 393px;
-    left: calc(50% - 279px/2 - 0.5px);
-    top: 72px;
-    background: #D9D9D9;
-  }
-  
-  /* Word */
-  #Word {
-    position: absolute;
-    width: 333px;
-    height: 65px;
-    left: calc(50% - 333px/2 - 0.5px);
-    top: 513px;
-    background: #FFFFFF;
-  }
-  
-  /* NavBar */
-  #NavBar {
-    position: absolute;
-    width: 390px;
-    height: 73px;
-    left: 0px;
-    top: 771px;
-    background: #FFC16C;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  
-  /* image 1 */
-  #Image1 {
-    position: absolute;
-    width: 88px;
-    height: 90px;
-    left: 291px;
-    top: 655px;
-    background: url('/public/images/logo.png');
-  }
-  
-  /* CHALLENGE */
-  #Challenge {
-    position: absolute;
-    width: 258px;
-    height: 47px;
-    left: 63px;
-    top: 13px;
-    font-family: 'Inria Serif', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-decoration-line: underline;
-    color: #FF0000;
-  }
-  
-  /* Ellipse 11 */
-  #Ellipse11 {
-    position: absolute;
-    width: 219px;
-    height: 135px;
-    left: 37px;
-    top: 610px;
-    background: #BD73FF;
-  }
-  
-  /* Step up to today's challenge Text */
-  #ChallengeText {
-    position: absolute;
-    width: 208px;
-    height: 101px;
-    left: 43px;
-    top: 627px;
-    font-family: 'Inria Serif', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-  }
-  
+.headerPage{
+  text-align: center;
+  color: rgba(109, 3, 3, 0.865)
+}
+
+.challenge1{
+  background-color: #F6A6C2 ;
+  width: 80%;
+  height: 10%;
+  text-align: center;
+  text-emphasis-color: black;
+  margin-top: 5% ;
+}
+
+.challenge2{
+  background-color: #FFE786 ;
+  width: 80%;
+  height: 10%;
+  text-align: center;
+  text-emphasis-color: black;
+  margin-top: 10% ;
+}
+
+.challenge3{
+  background-color: #8AABFF;
+  width: 80%;
+  height: 10%;
+  text-align: center;
+  text-emphasis-color: black;
+  margin-top: 13% ;
+}
