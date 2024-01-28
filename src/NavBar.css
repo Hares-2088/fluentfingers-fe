@@ -1,0 +1,27 @@
+/* Add this to your Home.css or the respective CSS file */
+
+.Navbar {
+    background: linear-gradient(90deg, rgba(255,192,0,1) 0%, rgba(250,152,32,1) 100%);
+    width: 100vw; /* Full width */
+    min-height: 8vh; /* Minimum height */
+    display: flex;
+    justify-content: center; /* Center the navigation items */
+    align-items: center; /* Vertically center */
+    width: 100%; /* Take the full width of the navbar */
+    height: 100%; /* Take the full height of the navbar */
+  }
+  
+  .Nav {
+
+  }
+  
+  .Nav-Link {
+    display: flex;
+    justify-content: center; /* Center the content inside the link */
+    align-items: center; /* Vertically center */
+    margin: 0 10px; /* Provide horizontal margin */
+    padding: 0.5rem 1rem; /* Padding for tap targets */
+  }
+  
+  /* The icon itself does not need extra styling for centering since it will inherit from Nav-Link */
+  
