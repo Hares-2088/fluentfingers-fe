@@ -20,24 +20,21 @@ export default function CreateAccount() {
   };
 
   return (
-    <Container>
+    <Container className='Container'>
       <div>
       <Image
-                    src="/images/logo.png"
-                    alt="Logo"
-                    style={{
-                        position: 'absolute',
-                        width: '161px',
-                        height: '161px',
-                        left: '360px',
-                        top: '92px'
-                    }}
-                />
-        <p id='WelcomeMessage'>
-          Congratulations on taking the first step!
-          <br/>
-          Your journey to mastering sign language begins now. Let's sign together!
-        </p>
+                src="/images/logo.png"
+                alt="Logo"
+                className="Logo"
+            />
+          <div className='CreateAccountMessage'>
+            <h2>
+            Congratulations on taking the first step!
+            <br/>
+            Your journey to mastering sign language begins now. Let's sign together!
+            </h2>
+          </div>
+
         <form onSubmit={handleSubmit}>
           <div id='UsernameLabel'> Username</div>
           <input

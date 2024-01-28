@@ -1,81 +1,54 @@
   /* Logo */
-  #Logo {
-    position: absolute;
-    width: 161px;
-    height: 161px;
-    left: calc(50% - 161px/2 + 0.5px);
-    top: 92px;
-    background: url('/public/images/logo.png');
+  .Logo {
+    width: 20vh; /* Adjust the size as needed */
+    height: 20vh;
+    border-radius: 50%; /* Makes the image round */
+    background: url('/public/images/logo.png') no-repeat center center;
+    background-size: cover; /* Cover the logo area */
+    margin-bottom: 2vh;
   }
-  
-  /* Bouton Create Account */
-  #BoutonCreateAccount {
-    position: absolute;
-    width: 149px;
-    height: 49px;
-    left: calc(50% - 149px/2 + 0.5px);
-    top: 603px;
-    /* Assuming a background or other styles might be needed here as well */
+
+  .CreateAccountMessage {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+    width: 40vh;
+    border-radius: 1vh;
+    padding: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
   }
   
   /* Bouton Connect */
   #BoutonCreateConnect {
-    position: absolute;
-    width: 149px;
-    height: 49px;
-    left: 121px;
-    top: 603px;
-    background: #FFFFFF;
+    background-color: #f8f8f8;
+    color: #000000;
+    padding: 2vh 4vw;
+    margin: 2vh;
+    border: none;
+    border-radius: 1vh;
+    font-size: 2vh;
+    text-align: center;
   }
   
   /* Connect Text */
   #ConnectText {
-    position: absolute;
-    width: 149px;
-    height: 49px;
-    left: 360px;
-    top: 603px;
-    font-family: 'Irish Grover', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 1vh;
+    padding: 2vh;
+    margin-top: 3vh;
+    font-size: 2vh;
     text-align: center;
-    color: #000000;
   }
   
-  /* Welcome Message */
-  #WelcomeMessage {
-    position: absolute;
-    width: 283px;
-    height: 124px;
-    left: calc(50% - 283px/2 + 0.5px);
-    top: 277px;
-    font-family: 'Inria Serif', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-  }
-  
+
   /* Username Label */
   #UsernameLabel {
     position: absolute;
-    width: 131px;
-    height: 23px;
-    left: 87px;
-    top: 432px;
+    padding: 2vh;
+    margin-top: 3vh;
     font-family: 'Inria Serif', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 2vh;
     display: flex;
     align-items: center;
     text-align: center;
@@ -87,23 +60,18 @@
     position: absolute;
     width: 204px;
     height: 37px;
-    left: calc(50% - 204px/2);
-    top: 462px;
     background: #FFFFFF;
   }
   
   /* Password Label */
   #PasswordLabel {
     position: absolute;
-    width: 107px;
-    height: 22px;
-    left: 87px;
-    top: 516px;
+    padding: 2vh;
+    margin-top: 3vh;
     font-family: 'Inria Serif', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 2vh;
     display: flex;
     align-items: center;
     text-align: center;
@@ -112,40 +80,20 @@
   
   /* Password Input */
   #PasswordInput {
-    position: absolute;
+    position: absolute;    
     width: 204px;
     height: 37px;
-    left: calc(50% - 204px/2);
-    top: 542px;
     background: #FFFFFF;
   }
   
   /* Encouragement Message */
   #EncouragementMessage {
-    position: absolute;
-    width: 219px;
-    height: 137px;
-    left: 360px;
-    top: 683px;
-    /* Assuming this is for the background ellipse */
-    background: #BD73FF;
+    background-color: #bd73ff;
+    border-radius: 1vh;
+    padding: 2vh;
+    margin-top: 3vh;
+    font-size: 2vh;
+    text-align: center;
   }
   
-  /* Encouragement Text */
-  #EncouragementText {
-    position: absolute;
-    width: 208px;
-    height: 101px;
-    left: 92px;
-    top: 702px;
-    font-family: 'Inria Serif', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-  }
   
