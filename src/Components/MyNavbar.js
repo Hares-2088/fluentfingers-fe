@@ -44,7 +44,7 @@ export default function MyNavBar() {
                         <LinkContainer to={link.to} key={link.title}>
                             <OverlayTrigger
                                 overlay={<Tooltip id={`tooltip-${link.title}`}>{link.title}</Tooltip>}
-                                placement="bottom"
+                                placement="top"
                             >
                                 <Nav.Link className="Nav-Link">
                                     <FontAwesomeIcon icon={link.icon} />
