@@ -1,11 +1,13 @@
-.VideoPart{
-  margin-left: 5%;
-  margin-top:-5%;
-  width: 80%;
-  height: 40%;
-  background-color: grey;
+.Button {
+  background-color: #f8f8f8;
+  color: #000000;
+  padding: 2vh 4vw;
+  margin: 2vh;
+  border: none;
+  border-radius: 1vh;
+  font-size: 2vh;
+  text-align: center;
 }
-
 .Word{
   margin-left: 5%;
   margin-top: 5%;
@@ -14,10 +16,20 @@
   background-color: white;
 }
 
-.ImagePlace{
+.Picture{
   margin-left: 5%;
   margin-top: 5%;
   width: 80%;
   height: 40%;
   background-color: white;
+}
+.portraitDiv {
+  width: 200px; /* Set your desired width */
+  height: 300px; /* Set your desired height, which is greater than the width */
+  border: 1px solid #000; /* Optional: Add a border for better visualization */
+}
+.videoElement {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the video covers the entire container while maintaining aspect ratio */
 }

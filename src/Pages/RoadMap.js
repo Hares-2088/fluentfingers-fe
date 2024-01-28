@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Image } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import {useNavigate} from 'react-router-dom';
 import '../RoadMap.css'; // Make sure you have this CSS file in your project
 

@@ -2,7 +2,7 @@
   width: 20vh; /* Adjust the size as needed */
   height: 20vh;
   border-radius: 50%; /* Makes the image round */
-  background: url('/public/images/logo.png') no-repeat center center;
+  background: url('/public/logo.png') no-repeat center center;
   background-size: cover; /* Cover the logo area */
   margin-bottom: 2vh;
 }

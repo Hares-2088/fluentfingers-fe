@@ -1,15 +1,16 @@
 import React from 'react';
-import { Container, Button, Image } from 'react-bootstrap';
+import { Container, Image } from 'react-bootstrap';
 import '../Home.css'; // Make sure this path is correct
 import CreateAccount from '../Components/CreateAccount';
 import Connect from '../Components/Connect';
 
 export default function Home() {
+
     return (
         <Container className="Container">
 
             <Image
-                src="public/images/logo.png"
+                src="public\logo.png"
                 alt="Logo"
                 className="Logo"
             />
