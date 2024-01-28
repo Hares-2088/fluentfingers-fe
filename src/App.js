@@ -10,6 +10,7 @@ import Profile from './Pages/Profile';
 import Challenges from './Pages/Challenges';
 import Connect from './Pages/Connect';
 import CreateAccount from './Pages/CreateAccount';
+import RoadMap from './Pages/RoadMap';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
           <Route exact path="/profile" element={<Profile />} />
           <Route exact path="/challenges" element={<Challenges />} />
           <Route exact path="/connect" element={<Connect />} />
-          <Route exact path="/createAccount" element={<CreateAccount />} />  
+          <Route exact path="/createAccount" element={<CreateAccount />} /> 
+          <Route exact path="/roadmap" element={<RoadMap />} /> 
 
         </Routes>
         <MyNavBar />

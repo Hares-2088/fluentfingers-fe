@@ -39,6 +39,11 @@ export default function MyNavBar() {
             to: "profile",
             title: "Profile",
             icon:  faUserCircle,
+        },
+        {
+            to: "roadmap",
+            title: "RoadMap",
+            icon:  faUserCircle,
         }
     ];
 
