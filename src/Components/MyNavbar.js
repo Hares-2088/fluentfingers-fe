@@ -17,10 +17,6 @@ export default function MyNavBar() {
             to: "createAccount",
             title: "CreateAccount"
         },
-        // {
-        //     to: "profile",
-        //     title: "Profile"
-        // },
         {
             to: "connect",
             title: "Connect"

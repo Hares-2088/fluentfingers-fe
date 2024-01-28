@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../CreateAccount.css';
-import { Container, Button } from 'react-bootstrap';
+import { Container, Button, Image } from 'react-bootstrap';
 
 export default function CreateAccount() {
   const [username, setUsername] = useState('');
@@ -22,7 +22,17 @@ export default function CreateAccount() {
   return (
     <Container>
       <div>
-        <div id='Logo' />
+      <Image
+                    src="/images/logo.png"
+                    alt="Logo"
+                    style={{
+                        position: 'absolute',
+                        width: '161px',
+                        height: '161px',
+                        left: '360px',
+                        top: '92px'
+                    }}
+                />
         <p id='WelcomeMessage'>
           Congratulations on taking the first step!
           <br/>
