@@ -1,10 +1,8 @@
-.roadmap-container {
-    position: relative;
-    width: 100%;
-    height: 100vh; /* Set a minimum height to ensure visibility */
-    background-color: #eee; /* Light background to see the container */
+ .roadmap-image {
+    width: 50vh;
+    height: 92vh;
   }
-  
+
  .level-number {
     margin: 10px;
     padding: 20px;
@@ -57,14 +55,6 @@
      margin-top: 25%;
     transform: translateX(-50%); }
   
-  
-  .roadmap-image {
-    width: 100%;
-    height: 80%;
-    top: 0;
-    left: 0;
-  }
-  
   .roadmap-items {
     position: absolute;
     top: 10%;
@@ -77,40 +67,20 @@
     top: 0;
     left: 0;
   }
-  
-  .level-number-1 {
-    top: 2%; /* Adjust as needed */
-    left: 10%; /* Adjust as needed */
-  }
 
   .level-2 {
     top: 0;
     left: 0;
   }
   
-  .level-number-2 {
-    top: 2%; /* Adjust as needed */
-    left: 10%; /* Adjust as needed */
-  }
-
   .level-3 {
     top: 0;
     left: 0;
   }
   
-  .level-number-3 {
-    top: 2%; /* Adjust as needed */
-    left: 10%; /* Adjust as needed */
-  }
-
   .level-4 {
     top: 0;
     left: 0;
-  }
-  
-  .level-number-4 {
-    top: 2%; /* Adjust as needed */
-    left: 10%; /* Adjust as needed */
   }
 
   .level-5 {
@@ -118,28 +88,5 @@
     left: 0;
   }
   
-  .level-number-5 {
-    top: 2%; /* Adjust as needed */
-    left: 10%; /* Adjust as needed */
-  }
   
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    /* Adjust styles for tablets */
-    .level-number {
-      font-size: 5vw; /* Slightly larger font size on smaller screens */
-    }
-  }
-  
-  @media (max-width: 576px) {
-    /* Adjust styles for phones */
-    .roadmap-items {
-      left: 15%; /* Center items more as the screen gets smaller */
-      width: 70%; /* Increase width for smaller screens */
-    }
-  
-    .level-number {
-      font-size: 6vw; /* Even larger font size on smaller screens */
-    }
-  }
   

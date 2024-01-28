@@ -20,26 +20,16 @@ export default function MyNavBar() {
             title: "Exercise",
             icon: faDumbbell,
         },
-        // {
-        //     to: "createAccount",
-        //     title: "CreateAccount",
-        //     icon: faUserPlus,
-        // },
-        {
-            to: "connect",
-            title: "Login",
-            icon: faSignInAlt,
-        },
         {
             to: "challenges",
             title: "Challenges",
             icon: faTrophy,
         },
-        {
-            to: "profile",
-            title: "Profile",
-            icon: faUserCircle,
-        },
+        // {
+        //     to: "profile",
+        //     title: "Profile",
+        //     icon: faUserCircle,
+        // },
         {
             to: "roadmap",
             title: "RoadMap",
