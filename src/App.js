@@ -22,8 +22,8 @@ function App() {
           <Route exact path="/exercise" element={<Exercise />} />
           <Route exact path="/profile" element={<Profile />} />
           <Route exact path="/challenges" element={<Challenges />} />
-          <Route exact path="/connect" element={<Connect />} />
-          <Route exact path="/createAccount" element={<CreateAccount />} />  
+          <Route exact path="/createAccount" element={<CreateAccount />} />
+          <Route path='/roadmap' element={<RoadMap />}/>
 
         </Routes>
         <MyNavBar />
