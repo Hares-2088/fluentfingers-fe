@@ -28,7 +28,7 @@ export default function Connect() {
           <br />
           Please connect to your profile:
         </p>
-        <form onSubmit={handleSubmit}>
+        <Form onSubmit={handleSubmit}>
           <div id='UsernameLabel'> Username</div>
           <input
             id='UsernameInput'
@@ -46,9 +46,9 @@ export default function Connect() {
           <Button id='BoutonConnect' type='submit'>
             Connect
           </Button>
-        </form>
+        </Form>
         <div>
-          <p id ='EncouragementMessage'>Let's pick up where we left off and turn your fingers into fluent storytellers. </p>
+          <p id='EncouragementMessage'>Let's pick up where we left off and turn your fingers into fluent storytellers. </p>
         </div>
       </div>
 
