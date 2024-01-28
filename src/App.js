@@ -1,5 +1,4 @@
 import React from 'react'; // Import React
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import from react-router-dom
 import Home from './Pages/Home';
@@ -17,7 +16,6 @@ function App() {
     <>
       <ToastContainer />
       <Router>
-        <MyNavBar />
         <Routes>
 
           <Route exact path="/" element={<Home />} />
@@ -28,6 +26,7 @@ function App() {
           <Route exact path="/createAccount" element={<CreateAccount />} />
 
         </Routes>
+        <MyNavBar />
 
       </Router>
     </>
