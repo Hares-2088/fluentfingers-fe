@@ -5,9 +5,9 @@ import '../RoadMap.css'; // Make sure you have this CSS file in your project
 
 export default function RoadMap() {
   const navigate = useNavigate();
-  const navigateToLevel = (level) =>{
-    navigate('/exercise/${level}');
-  }
+  const navigateToLevel = (level) => {
+    navigate('/exercise', { state: { level } });
+  };
   return (
     <Container className="roadmap-container">
       <Image className="roadmap-image" src=".\images\Roadmap.png" alt="Roadmap" style={{height: '92vh'}}/>
