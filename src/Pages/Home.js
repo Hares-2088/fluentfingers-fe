@@ -7,7 +7,7 @@ export default function Home() {
         <Container className="Container">
 
             <Image
-                src="/images/logo.png"
+                src="public/images/logo.png"
                 alt="Logo"
                 className="Logo"
             />

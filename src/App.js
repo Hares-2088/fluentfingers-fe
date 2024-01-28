@@ -18,12 +18,12 @@ function App() {
       <Router>
         <Routes>
 
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} /> 
           <Route exact path="/exercise" element={<Exercise />} />
           <Route exact path="/profile" element={<Profile />} />
           <Route exact path="/challenges" element={<Challenges />} />
           <Route exact path="/connection" element={<Connect />} />
-          <Route exact path="/createAccount" element={<CreateAccount />} />
+          <Route exact path="/createAccount" element={<CreateAccount />} />  
 
         </Routes>
         <MyNavBar />

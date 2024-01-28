@@ -4,8 +4,8 @@ import {Container} from 'react-bootstrap'
 
 export default function Exercise() {
   return (
-      <Container>
-        <div>
+      <Container className='Container'>
+        <div className='VideoPart'>
         
         </div>
     </Container>

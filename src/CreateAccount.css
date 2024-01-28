@@ -1,99 +1,43 @@
-  /* Logo */
-  .Logo {
-    width: 20vh; /* Adjust the size as needed */
-    height: 20vh;
-    border-radius: 50%; /* Makes the image round */
-    background: url('/public/images/logo.png') no-repeat center center;
-    background-size: cover; /* Cover the logo area */
-    margin-bottom: 2vh;
-  }
+.Logo {
+  width: 20vh;
+  height: 20vh;
+  border-radius: 50%;
+  margin: 2vh auto 4vh;
+  display: block;
+}
 
-  .CreateAccountMessage {
-    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
-    width: 40vh;
-    border-radius: 1vh;
-    padding: 2vh;
-    margin-bottom: 2vh;
-    text-align: center;
-  }
-  
-  /* Bouton Connect */
-  #BoutonCreateConnect {
-    background-color: #f8f8f8;
-    color: #000000;
-    padding: 2vh 4vw;
-    margin: 2vh;
-    border: none;
-    border-radius: 1vh;
-    font-size: 2vh;
-    text-align: center;
-  }
-  
-  /* Connect Text */
-  #ConnectText {
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 1vh;
-    padding: 2vh;
-    margin-top: 3vh;
-    font-size: 2vh;
-    text-align: center;
-  }
-  
+.CreateAccountMessage {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 1vh;
+  padding: 2vh;
+  margin-top: -3vh; 
+  margin-bottom: 5vh;
+  width: 90%;
+  max-width: 400px;
+}
 
-  /* Username Label */
-  #UsernameLabel {
-    position: absolute;
-    padding: 2vh;
-    margin-top: 3vh;
-    font-family: 'Inria Serif', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2vh;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-  }
-  
-  /* Username Input */
-  #UsernameInput {
-    position: absolute;
-    width: 204px;
-    height: 37px;
-    background: #FFFFFF;
-  }
-  
-  /* Password Label */
-  #PasswordLabel {
-    position: absolute;
-    padding: 2vh;
-    margin-top: 3vh;
-    font-family: 'Inria Serif', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2vh;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-  }
-  
-  /* Password Input */
-  #PasswordInput {
-    position: absolute;    
-    width: 204px;
-    height: 37px;
-    background: #FFFFFF;
-  }
-  
-  /* Encouragement Message */
-  #EncouragementMessage {
-    background-color: #bd73ff;
-    border-radius: 1vh;
-    padding: 2vh;
-    margin-top: 3vh;
-    font-size: 2vh;
-    text-align: center;
-  }
-  
-  
+input {
+  width: 100%;
+  margin-top: -5vh;
+  padding: 1vh;
+}
+
+.CreateAccountButton {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+  padding: 2vh 4vw;
+  font-size: 2vh;
+}
+
+.EncouragementMessage {
+  background-color: #bd73ff;
+  color: #ffffff;
+  border-radius: 2vh;
+  padding: 2vh; 
+  width: 90%;
+  max-width: 400px;
+  margin-top: 0vh;
+}
