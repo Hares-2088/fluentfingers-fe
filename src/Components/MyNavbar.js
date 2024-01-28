@@ -2,7 +2,10 @@ import React from 'react';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faDumbbell, faUserPlus, faPlug, faTrophy } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faDumbbell, faUserPlus, faPlug, faTrophy,faSignInAlt } from '@fortawesome/free-solid-svg-icons';
+import { Tooltip, OverlayTrigger } from 'react-bootstrap';
+import '../NavBar.css';
+
 
 export default function MyNavBar() {
     const links = [
@@ -16,15 +19,15 @@ export default function MyNavBar() {
             title: "Exercise",
             icon: faDumbbell,
         },
-        {
-            to: "createAccount",
-            title: "CreateAccount",
-            icon: faUserPlus,
-        },
+        // {
+        //     to: "createAccount",
+        //     title: "CreateAccount",
+        //     icon: faUserPlus,
+        // },
         {
             to: "connect",
-            title: "Connect",
-            icon: faPlug,
+            title: "Login",
+            icon: faSignInAlt, 
         },
         {
             to: "challenges",
@@ -34,14 +37,19 @@ export default function MyNavBar() {
     ];
 
     return (
-        <Navbar style={{ background: 'linear-gradient(90deg, rgba(255,192,0,1) 0%, rgba(250,152,32,1) 100%)', width: '100vw', minHeight: '8vh' }}>
+        <Navbar className="Navbar">
             <Container>
-                <Nav className='me-auto fs-5'>
+                <Nav className="me-auto Nav-Link">
                     {links.map((link) => (
-                        <LinkContainer to={`/${link.to}`} key={link.to}>
-                            <Nav.Link>
-                                <FontAwesomeIcon icon={link.icon} />
-                            </Nav.Link>
+                        <LinkContainer to={link.to} key={link.title}>
+                            <OverlayTrigger
+                                overlay={<Tooltip id={`tooltip-${link.title}`}>{link.title}</Tooltip>}
+                                placement="bottom"
+                            >
+                                <Nav.Link className="Nav-Link">
+                                    <FontAwesomeIcon icon={link.icon} />
+                                </Nav.Link>
+                            </OverlayTrigger>
                         </LinkContainer>
                     ))}
                 </Nav>
