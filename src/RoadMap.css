@@ -28,20 +28,20 @@
   { background-color: #CC8AFF; 
     transform: translateX(-50%); 
     margin-left: 17vh;
-    margin-top: 6vh;
+    margin-top: 5vh;
   }
   .level-2 
   {
      background-color: #8AABFF; 
      margin-left: 28vh;
-     margin-top: 10vh;
+     margin-top:10vh;
      transform: translateX(-50%); 
    }
   
    .level-3 { 
     background-color: #9AE8A7; 
     margin-left: 17vh;
-    margin-top: 11vh;
+    margin-top: 10vh;
     transform: translateX(-50%); }
 
   .level-4 { 
