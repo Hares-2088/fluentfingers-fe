@@ -23,7 +23,7 @@ export default function Home() {
             </div>
 
             <div className="ProfileReminder">
-                In order to save your progress you must have a profile:
+                <h5>In order to save your progress you must have a profile:</h5>
             </div>
 
             <div style={{textAlign: 'center'}} >
