@@ -9,7 +9,6 @@ import Exercise from './Pages/Exercise';
 import Profile from './Pages/Profile';
 import Challenges from './Pages/Challenges';
 import Connect from './Pages/Connect';
-import CreateAccount from './Pages/CreateAccount';
 
 function App() {
   return (
@@ -22,8 +21,8 @@ function App() {
           <Route exact path="/exercise" element={<Exercise />} />
           <Route exact path="/profile" element={<Profile />} />
           <Route exact path="/challenges" element={<Challenges />} />
-          <Route exact path="/connection" element={<Connect />} />
-          <Route exact path="/createAccount" element={<CreateAccount />} />  
+          <Route exact path="/connect" element={<Connect />} />
+          {/* <Route exact path="/createAccount" element={<CreateAccount />} />   */}
 
         </Routes>
         <MyNavBar />

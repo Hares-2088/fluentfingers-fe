@@ -2,8 +2,9 @@ import React from 'react';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faDumbbell, faUserPlus, faPlug, faTrophy,faSignInAlt } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faDumbbell, faUserCircle, faTrophy, faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 import { Tooltip, OverlayTrigger } from 'react-bootstrap';
+import { Link } from 'react-router-dom'; // Use Link for navigation
 import '../NavBar.css';
 
 
@@ -33,6 +34,11 @@ export default function MyNavBar() {
             to: "challenges",
             title: "Challenges",
             icon: faTrophy,
+        },
+        {
+            to: "profile",
+            title: "Profile",
+            icon:  faUserCircle,
         }
     ];
 
@@ -41,16 +47,15 @@ export default function MyNavBar() {
             <Container>
                 <Nav className="me-auto Nav-Link">
                     {links.map((link) => (
-                        <LinkContainer to={link.to} key={link.title}>
-                            <OverlayTrigger
-                                overlay={<Tooltip id={`tooltip-${link.title}`}>{link.title}</Tooltip>}
-                                placement="top"
-                            >
-                                <Nav.Link className="Nav-Link">
-                                    <FontAwesomeIcon icon={link.icon} />
-                                </Nav.Link>
-                            </OverlayTrigger>
-                        </LinkContainer>
+                        <OverlayTrigger
+                            key={link.title}
+                            overlay={<Tooltip id={`tooltip-${link.title}`}>{link.title}</Tooltip>}
+                            placement="top"
+                        >
+                            <Link to={link.to} className="nav-link">
+                                <FontAwesomeIcon icon={link.icon} />
+                            </Link>
+                        </OverlayTrigger>
                     ))}
                 </Nav>
             </Container>
