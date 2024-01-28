@@ -1,8 +1,14 @@
 import React from 'react';
 import { Container, Button, Image } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 import '../Home.css'; // Make sure this path is correct
+import CreateAccount from './CreateAccount';
 
 export default function Home() {
+    let navigate = useNavigate();
+    function openCreateAccount(){
+        navigate('/createAccount');
+    }
     return (
         <Container className="Container">
 
@@ -31,7 +37,7 @@ export default function Home() {
 
             <div>
                 <Button className="Button">Connect</Button>
-                <Button className="Button">Create account</Button>
+                <Button className="Button" onClick={openCreateAccount}>Create account</Button>
             </div>
 
         </Container>

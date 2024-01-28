@@ -14,12 +14,14 @@
   margin-bottom: 5vh;
   width: 90%;
   max-width: 400px;
+  text-align: center;
 }
 
 input {
   width: 100%;
   margin-top: -5vh;
   padding: 1vh;
+  text-align: center;
 }
 
 .CreateAccountButton {
@@ -40,4 +42,5 @@ input {
   width: 90%;
   max-width: 400px;
   margin-top: 0vh;
+  text-align: center;
 }
