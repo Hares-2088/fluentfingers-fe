@@ -12,8 +12,6 @@ body, html {
   margin: 0;
   padding: 0;
   overflow: hidden; /* Prevent scrolling */
-  height: 100%; /* Full height */
-  width: 100%; /* Full width */
 }
 
 code {
@@ -25,6 +23,6 @@ code {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Full viewport height */
+  height: 92vh; /* Full viewport height */
   width: 100vh;
 }

@@ -1,4 +1,4 @@
-import { Nav, Navbar, Image } from 'react-bootstrap'
+import { Nav, Navbar } from 'react-bootstrap'
 import Container from 'react-bootstrap/Container'
 import { LinkContainer } from 'react-router-bootstrap'
 
@@ -28,7 +28,7 @@ export default function MyNavBar() {
     ]
 
     return (
-        <Navbar style={{ background: ' linear-gradient(90deg, rgba(255,192,0,1) 0%, rgba(250,152,32,1) 100%)', width: '100vh' }}>
+        <Navbar style={{ background: ' linear-gradient(90deg, rgba(255,192,0,1) 0%, rgba(250,152,32,1) 100%)', width: '100vh', height: '8vh' }}>
             <Container>
 
                 {/* <LinkContainer to="/" style={{ cursor: 'pointer' }}>
