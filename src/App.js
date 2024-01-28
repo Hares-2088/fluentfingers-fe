@@ -23,7 +23,7 @@ function App() {
           <Route exact path="/profile" element={<Profile />} />
           <Route exact path="/challenges" element={<Challenges />} />
           <Route exact path="/createAccount" element={<CreateAccount />} />  
-
+          <Route path='/roadmap' element={<RoadMap />}/>
         </Routes>
         <MyNavBar />
 
