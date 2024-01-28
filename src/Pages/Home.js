@@ -1,55 +1,39 @@
-import React from 'react'
-import '../Home.css'
-import { Container, Button, Image } from 'react-bootstrap'
+import React from 'react';
+import { Container, Button, Image } from 'react-bootstrap';
+import '../Home.css'; // Make sure this path is correct
 
 export default function Home() {
-
     return (
-        <Container>
+        <Container className="Container">
+
+            <Image
+                src="/images/logo.png"
+                alt="Logo"
+                className="Logo"
+            />
+
+            <div className="WelcomeMessage">
+                <h2>WELCOME TO FLUENT FINGERS</h2>
+                <h5>"Speak with your Hands, 
+                    <br/>
+                    Connect with Hearts"
+                </h5>
+            </div>
+
             <div>
-                <Image
-                    src="/images/logo.png"
-                    alt="Logo"
-                    style={{
-                        position: 'absolute',
-                        width: '161px',
-                        height: '161px',
-                        left: '114px',
-                        top: '92px'
-                    }}
-                />
+                <Button className="Button">Exercise</Button>
+                <Button className="Button">Challenge</Button>
+            </div>
 
-                <div id='Ellipse10'>
-                    <p id='WelcomeMessage'>
-                        WELCOME TO <br />
-                        FLUENT FINGERS
-                    </p>
+            <div className="ProfileReminder">
+                In order to save your progress you must have a profile:
+            </div>
 
-                    <p id='WelcomeMessage'>
-                        Speak with your Hands,<br />
-                        Connect with Hearts
-                    </p>
-                </div>
-                <Button id='ButtonExercise'>Exercise</Button>
-
-                <div>
-                    <div></div>
-                    <div id='ButtonChallenge'>Challenge</div>
-                </div>
-                <div>
-                    <div></div>
-                    <div id='BoutonConnectLeft'>Connect</div>
-                </div>
-                <div>
-                    <div></div>
-                    <div id='ButtonConnectRight'>Create account</div>
-                </div>
-                <div id='ProfileReminder'>In order to save your progress you must have a profile:</div>
-                <div>
-                    <div></div>
-                </div>
+            <div>
+                <Button className="Button">Connect</Button>
+                <Button className="Button">Create account</Button>
             </div>
 
         </Container>
-    )
+    );
 }
