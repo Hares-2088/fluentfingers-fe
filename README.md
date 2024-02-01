@@ -1,6 +1,6 @@
 # Run App locally
 
-1. Step 1: Clone the 
+1. Step 1: Clone the Repo
 
 open a terminal in linux then run:
 ```bash
@@ -33,8 +33,6 @@ then use `flask run` and click the url to run the program each time:
 flask run
 ```
 Then, open http://127.0.0.1:5000 to see the homepage.
-
-
 
 # Getting Started with Create React App
 
