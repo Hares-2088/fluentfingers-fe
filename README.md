@@ -4,9 +4,26 @@
 ```bash
 git clone <repository_url>
 ```
-2. Step 2: open a terminal, cd into frontend, then enter `npm run build` into the terminal to build the program
+2. Step 2: open a terminal then run:
+```bash 
+cd frontend
+```
+then enter: 
+```bash 
+npm run build
+``` 
+to build the program
 
-3. Step3: open a new terminal and cd into backend, then enter `flask run` to run the program. Open http://127.0.0.1:5000 to see the homepage
+3. Step3: open a new terminal and then run:
+```bash
+cd backend
+```
+then enter:
+```bash
+flask run
+```
+to run the program. 
+Then, open http://127.0.0.1:5000 to see the homepage
 
 
 
