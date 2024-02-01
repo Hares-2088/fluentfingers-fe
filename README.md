@@ -4,7 +4,7 @@
 
 open a terminal in linux then run:
 ```bash
-git clone <repository_url>
+git clone git@github.com:Hares-2088/fluentfingers-fe.git
 ```
 2. Step 2: Install Dependencies
 
