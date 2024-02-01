@@ -1,0 +1,59 @@
+.Logo {
+  width: 20vh; /* Adjust the size as needed */
+  height: 20vh;
+  border-radius: 50%; /* Makes the image round */
+  background: url('/public/logo.png') no-repeat center center;
+  background-size: cover; /* Cover the logo area */
+  margin-bottom: 2vh;
+}
+
+.WelcomeMessage {
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+  width: 40vh;
+  border-radius: 1vh;
+  padding: 2vh;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+
+.Button {
+  background-color: #f8f8f8;
+  color: #000000;
+  padding: 2vh 4vw;
+  margin: 2vh;
+  border: none;
+  border-radius: 1vh;
+  font-size: 2vh;
+  text-align: center;
+}
+
+.ProfileReminder {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 1vh;
+  padding: 2vh;
+  margin-top: 3vh;
+  font-size: 2vh;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .Button {
+    font-size: 2.5vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .ProfileReminder {
+    font-size: 2.2vh;
+  }
+  .Button {
+    background-color: #f8f8f8;
+    color: #000000;
+    padding: 2vh 4vw;
+    margin: 1.5vh;
+    border: none;
+    border-radius: 1vh;
+    font-size: 2vh;
+    text-align: center;
+  }
+}

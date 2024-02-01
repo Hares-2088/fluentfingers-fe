@@ -1,0 +1,68 @@
+ .roadmap-image {
+    width: 50vh;
+    height: 92vh;
+  }
+
+ .level-number {
+    margin: 10px;
+    padding: 20px;
+    background-color: #ddd; /* Different background to distinguish */
+  }
+  
+  /* General button style */
+.level-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Position each button absolutely within the roadmap container */
+  .level-1 
+  { background-color: #CC8AFF; 
+    transform: translateX(-50%); 
+    margin-left: 17vh;
+    margin-top: 5vh;
+  }
+  .level-2 
+  {
+     background-color: #8AABFF; 
+     margin-left: 28vh;
+     margin-top:10vh;
+     transform: translateX(-50%); 
+   }
+  
+   .level-3 { 
+    background-color: #9AE8A7; 
+    margin-left: 17vh;
+    margin-top: 10vh;
+    transform: translateX(-50%); }
+
+  .level-4 { 
+    background-color: #FFE786;  
+    margin-left: 28vh;
+    margin-top: 10vh;
+    transform: translateX(-50%); }
+  .level-5 { 
+    background-color: #F6A6C2; 
+    margin-left: 17vh;
+    margin-top: 11vh;
+    transform: translateX(-50%); }
+  
+  .roadmap-items {
+    position: absolute;
+    top: 5.5vh;
+    left: 2vh;
+    width: 50vh;
+    height: 92vh;
+  }
+  
+  
+  
+  

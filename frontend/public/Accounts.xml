@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Library>
+    <Account>
+        <Level>1</Level>
+        <Name>Adem</Name>
+        <Username>PortgasD.Adem</Username>
+        <Password>Password</Password>
+        <Challenge1>3</Challenge1>
+        <Challenge2>2</Challenge2>
+        <Challenge3>3</Challenge3>
+    </Account>
+
+    <Account>
+        <Level>3</Level>
+        <Name>Luffy</Name>
+        <Username>Monkey</Username>
+        <Password>Dragon</Password>
+        <Challenge1>1</Challenge1>
+        <Challenge2>1</Challenge2>
+        <Challenge3>0</Challenge3>
+    </Account>
+    
+
+</Library>

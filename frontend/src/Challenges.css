@@ -1,0 +1,31 @@
+.headerPage{
+  text-align: center;
+  color: rgba(109, 3, 3, 0.865)
+}
+
+.challenge1{
+  background-color: #F6A6C2 ;
+  width: 80%;
+  height: 10%;
+  text-align: center;
+  text-emphasis-color: black;
+  margin-top: 5% ;
+}
+
+.challenge2{
+  background-color: #FFE786 ;
+  width: 80%;
+  height: 10%;
+  text-align: center;
+  text-emphasis-color: black;
+  margin-top: 10% ;
+}
+
+.challenge3{
+  background-color: #8AABFF;
+  width: 80%;
+  height: 10%;
+  text-align: center;
+  text-emphasis-color: black;
+  margin-top: 13% ;
+}

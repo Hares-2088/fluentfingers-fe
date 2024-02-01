@@ -1,0 +1,40 @@
+  .Button {
+    background-color: #f8f8f8;
+    color: #000000;
+    padding: 2vh 4vw;
+    margin: 2vh;
+    border: none;
+    border-radius: 1vh;
+    font-size: 2vh;
+    text-align: center;
+  }
+  .connect-btn {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .modal-header, .modal-footer {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .modal-title {
+    color: #495057;
+  }
+  
+  .modal-body {
+    padding: 20px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .encouragement-message {
+    color: #6c757d;
+    text-align: center;
+  }
+  
