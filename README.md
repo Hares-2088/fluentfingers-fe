@@ -12,7 +12,18 @@ then enter:
 ```bash 
 npm run build
 ``` 
-to build the program
+
+and also install node_modules
+```bash
+npm install
+```
+to build the program. Your folders should look like this:
+```bash
+├── frontend
+│   ├── build
+│   ├── node_modules
+│   ├── ...
+```
 
 3. Step3: open a new terminal and then run:
 ```bash
