@@ -1,23 +1,20 @@
 # Run App locally
 
-1. Step 1: Clone the repo
+1. Step 1: Clone the 
+
+open a terminal in linux then run:
 ```bash
 git clone <repository_url>
 ```
-2. Step 2: open a terminal then run:
-```bash 
-cd frontend
-```
-then enter: 
-```bash 
-npm run build
-``` 
+2. Step 2: Install Dependencies
 
-and also install node_modules
-```bash
+In the frontend, install dependencies, then build the program locally. 
+```bash 
+cd frontend 
 npm install
+npm run build
 ```
-to build the program. Your folders should look like this:
+Your folders should look like this:
 ```bash
 ├── frontend
 │   ├── build
@@ -25,16 +22,17 @@ to build the program. Your folders should look like this:
 │   ├── ...
 ```
 
-3. Step3: open a new terminal and then run:
+3. Step3: Run the Program
+
+open a new terminal and make sure you are in the backend folder:
 ```bash
 cd backend
 ```
-then enter:
+then use `flask run` and click the url to run the program each time:
 ```bash
 flask run
 ```
-to run the program. 
-Then, open http://127.0.0.1:5000 to see the homepage
+Then, open http://127.0.0.1:5000 to see the homepage.
 
 
 
