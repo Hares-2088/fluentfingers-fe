@@ -1,11 +1,12 @@
-# Run app locally
-### Step 1: clone to repo
+# Run App locally
 
-### Step 2: open a terminal and cd into frontend, then enter `npm run build` into the terminal to build the program
+1. Step 1: Clone the repo
+```bash
+git clone <repository_url>
+```
+2. Step 2: open a terminal, cd into frontend, then enter `npm run build` into the terminal to build the program
 
-### Step3: open a new terminal and cd into backend, then enter `flask run` to run the program. Open http://127.0.0.1:5000 to see the homepage
-
-
+3. Step3: open a new terminal and cd into backend, then enter `flask run` to run the program. Open http://127.0.0.1:5000 to see the homepage
 
 
 
@@ -79,5 +80,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
